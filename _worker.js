@@ -583,7 +583,7 @@ const pt = 'dmxlc3M=';
 const rs = 'RUR0dW5uZWw=';
 
 function getวเลสConfig(userIDs, hostName) {
-	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Frs%3D2025#${hostName}`;
+	const commonUrlPart = `:443?encryption=none&security=tls&sni=${hostName}&fp=chrome&type=ws&host=${hostName}&path=%2F%3Frs%3D2025#${hostName}`;
 	const hashSeparator = "################################################################";
 	const userIDArray = userIDs.split(",");
 	const output = userIDArray.map((userID) => {
